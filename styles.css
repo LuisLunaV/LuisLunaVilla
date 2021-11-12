@@ -129,6 +129,7 @@ padding: 5px;
     }
 .box-cont{
     height: 130px;
+    width: auto;
     cursor: pointer;
     margin: 10px;
     padding: 10px;
@@ -384,6 +385,7 @@ margin-top: 60px;
     }
 .box-cont{
     height: 130px;
+    width: auto;
     padding: 10px;
     margin: 10px;
 
@@ -549,6 +551,7 @@ justify-content: space-evenly;
     }
 .box-cont{
     height: 150px;
+    width: auto;
     padding: 10px;
     margin: 25px 20px 25px 20px;
 
@@ -669,6 +672,7 @@ footer p {
     }
 .box-cont{
     height: 180px;
+    width: auto;
     margin: 25px 20px 25px 20px; 
 }
 
