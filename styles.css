@@ -102,7 +102,88 @@ padding: 5px;
     box-shadow: 1px 1px 6px 5px rgba(0,0,0,0.5);
 }
 /* ********************************************/
+/* *****************Tecnologias***************************/
+#tecnologias{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 
+    }
+.box-cont{
+    height: 180px;
+    cursor: pointer;
+    margin: 25px 20px 25px 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(62deg, #B3B6B7 0%, #F8F9F9 100%);
+    box-shadow: 1px 1px 6px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    position:relative;
+}
+
+.box-cont img{
+    width: 100%;
+    height: 100%;
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+    transition: all 500ms ease-out;
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+  visibility: hidden;
+  text-align: center;
+  transition: all 500ms ease-out;
+
+} 
+
+.box-cont:hover > .info{
+  opacity: 1;
+  visibility: visible;
+}
+.box-cont .info h2{
+    font-size: 1.1rem;
+    color: #181719;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 10px;
+}
+.box-cont:hover > .info h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.box-cont:hover > .info p{
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+/* ********************************************/
 
 /* *****************projects***************************/
 .projects-sections{
