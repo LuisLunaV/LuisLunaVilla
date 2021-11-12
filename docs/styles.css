@@ -24,7 +24,7 @@ top: 0;
 }
 
 #navbar ul li{
-    font-size: 1.0rem;
+    font-size: .8rem;
     padding: 0 10px 0 10px;
   transition: 0.5s;
 }
@@ -102,7 +102,94 @@ padding: 5px;
     box-shadow: 1px 1px 6px 5px rgba(0,0,0,0.5);
 }
 /* ********************************************/
+/* *****************Tecnologias***************************/
+#tecnologias{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  flex: 0 1 calc(30% - 3rem);
 
+
+    }
+.box-cont{
+    height: 130px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(62deg, #B3B6B7 0%, #F8F9F9 100%);
+    box-shadow: 1px 1px 6px 5px rgba(0,0,0,0.5);
+    overflow: hidden;
+    position:relative;
+}
+
+.box-cont img{
+    width: 100%;
+    height: 100%;
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+    transition: all 500ms ease-out;
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+  visibility: hidden;
+  text-align: center;
+  transition: all 500ms ease-out;
+
+} 
+
+.box-cont:hover > .info{
+  opacity: 1;
+  visibility: visible;
+}
+.box-cont .info h2{
+    font-size: 1rem;
+    color: #181719;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 10px;
+}
+.box-cont:hover > .info h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.box-cont:hover > .info p{
+    font-size: 9.8px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+
+/* ********************************************/
 
 /* *****************projects***************************/
 .projects-sections{
@@ -218,8 +305,8 @@ footer p i{
         align-items: center;
     }
     #navbar ul li{
-        padding: 0 20px 0 20px;
-        font-size: 1.3rem;
+        padding: 0 10px 0 10px;
+        font-size: 1.1rem;
       
     }
 
@@ -269,12 +356,58 @@ margin-top: 60px;
    
     #sobre-mi p{
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
        padding: 20px;
         width: 90%;
         height: 80%;
     }
+
 /* ********************************************* */
+/* *****************Tecnologias***************************/
+#tecnologias{
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 50px;
+}
+#cont-tec{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.box-cont{
+    height: 130px;
+    padding: 10px;
+    margin: 10px;
+
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1rem; 
+}
+
+.box-cont:hover > .info p{
+    font-size: 9.5px;
+}
+/* ********************************************/
+
+
+/* ********************************************* */
+/* *****************Proyectos***************************/
+
+
     .projects-sections{
 
         padding-top: 100px;
@@ -344,6 +477,7 @@ align-items: center;
         align-items: center;
     }
     #navbar ul li{
+        padding: 0 20px 0 20px;
         overflow: hidden;
         font-size: 1.6rem;      
     }
@@ -384,9 +518,7 @@ justify-content: space-evenly;
         width: 100%;
         height: 90%;
         max-width: 400px;
-        /* background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-        border-radius: 15px;
-        box-shadow: 1px 1px 6px 5px rgba(0,0,0,0.5); */
+
     }
    
     #sobre-mi p{
@@ -394,6 +526,50 @@ justify-content: space-evenly;
         width: 50%;
         height: auto;
     }
+/* *******************************************************/
+
+/* *****************Tecnologias***************************/
+#tecnologias{
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.box-cont{
+    height: 150px;
+    padding: 10px;
+    margin: 25px 20px 25px 20px;
+
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1rem; 
+}
+
+.box-cont:hover > .info p{
+    font-size: .7rem;
+}
+/* ********************************************/
+
+
+
 
       /* *****************projects***************************/
 .projects-sections{
@@ -470,5 +646,54 @@ footer p {
         
 }
 
+/* *****************Tecnologias***************************/
+@media screen and (min-width:1258px){
+#tecnologias{
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    }
+.box-cont{
+    height: 180px;
+    margin: 25px 20px 25px 20px; 
+}
+
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1.1rem;
+
+
+}
+.box-cont:hover > .info h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.box-cont:hover > .info p{
+    font-size: .9rem;
+}
+/* ********************************************/
+
+    
+}
 /* ***********************************************/
 
