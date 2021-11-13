@@ -24,8 +24,8 @@ top: 0;
 }
 
 #navbar ul li{
-    font-size: .8rem;
-    padding: 0 10px 0 10px;
+    font-size: .9rem;
+    padding: 0 5px 0 5px;
   transition: 0.5s;
 }
 
@@ -206,16 +206,20 @@ padding: 5px;
 
 .img-proyects{
     align-self: center;
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-   align-items: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+   /* align-items: center; */
+   flex: 0 1 calc(20% - 3rem);
+
 
 }
 .img-proyects .project-tile{
     margin-bottom: 20px;
-    width: 200px;
+    width: 130px;
     height: auto; 
     overflow: hidden;
     border-radius: 15px;
@@ -229,7 +233,7 @@ padding: 5px;
 
 .img-proyects .project-tile a p{
     margin: 0px;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 .code{
     color: transparent;
@@ -241,7 +245,7 @@ padding: 5px;
 
 img{
     width: 100%;
-    height: auto;
+    height: 201px;
 }
 /* ********************************************/
 /* *****************contacts***************************/
@@ -299,7 +303,7 @@ footer p i{
 }
 /* ********************************************/
 /************* Media query 530 **************/
-@media screen and (min-width:530px){
+@media screen and (min-width:560px){
     
     #navbar ul{
         justify-content: space-evenly;
@@ -422,9 +426,9 @@ margin-top: 60px;
       }
       
       .img-proyects{
-        margin: auto;
-          width: 90%;
-          height: auto;
+          margin: auto;
+          width: 100%;
+          height: 100%;
           flex-direction: row;
           justify-content: space-evenly;
       }
@@ -436,14 +440,14 @@ margin-top: 60px;
       
       
       .img-proyects .project-tile a p{
-          font-size: 1.3rem;
+          font-size: .9rem;
       }
       
-      img{
+      .img-proyects .project-tile img{
           max-width: 340px;
           max-height: 250px;
           width: 100%;
-          height: auto;
+          height: 250px;
       }
 
        /* *****************contacts***************************/
@@ -586,27 +590,29 @@ justify-content: space-evenly;
   }
   
   .img-proyects{
-      width: 90%;
-      height: auto;
+      width: 100%;
+      height: 100%;
       flex-direction: row;
       justify-content: space-evenly;
   }
   .img-proyects .project-tile{  
       border-radius: 15px;
-      width: 250px;
+      width: 200px;
       height: auto;
 
   }
   
   
   .img-proyects .project-tile a p{
-      font-size: 1.4rem;
+      font-size: 1.1rem;
   }
   
-  img{
-      max-width: 300px;
-      max-height: 400px;
-      height: 390px;
+.img-proyects .project-tile img{
+    max-width: 370px;
+    max-height: 380px;
+width: 100%;
+height: 340px;
+      
   }
 
   /* *****************contacts***************************/
@@ -648,6 +654,49 @@ footer p {
 }
         
 }
+/* ********************************************/
+
+/* *****************Tecnologias***************************/
+@media screen and (min-width:1000px){
+    .projects-sections{
+        justify-content: center;
+        padding-top: 100px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+      }
+      
+      .img-proyects{
+          width: 100%;
+          height: 100%;
+          flex-direction: row;
+          justify-content: space-evenly;
+      }
+      .img-proyects .project-tile{  
+          border-radius: 15px;
+          width: 250px;
+          height: auto;
+    
+      }
+      
+      
+      .img-proyects .project-tile a p{
+          font-size: 1.1rem;
+      }
+      
+    .img-proyects .project-tile img{
+        max-width: 390px;
+        max-height: 400px;
+    width: 100%;
+    height: 390px;
+          
+      }
+    
+
+}
+/* ********************************************/
 
 /* *****************Tecnologias***************************/
 @media screen and (min-width:1258px){
@@ -695,9 +744,44 @@ footer p {
 .box-cont:hover > .info p{
     font-size: .9rem;
 }
-/* ********************************************/
-
     
 }
 /* ***********************************************/
 
+/* *****************Proyectos***************************/
+@media screen and (min-width:1130px){
+    .projects-sections{
+        justify-content: center;
+        padding-top: 100px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+      }
+      
+      .img-proyects{
+          width: 90%;
+          height: auto;
+          flex-direction: row;
+          justify-content: space-evenly;
+      }
+      .img-proyects .project-tile{  
+          border-radius: 15px;
+          width: 250px;
+          height: auto;
+    
+      }
+      
+      
+      .img-proyects .project-tile a p{
+          font-size: 1.4rem;
+      }
+      
+      .img-proyects .project-tile img{
+          max-width: 300px;
+          max-height: 400px;
+          height: 390px;
+      }
+    
+}
