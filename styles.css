@@ -295,7 +295,7 @@ footer{
     align-items: center;
 }
 footer p {
-    font-size: 1.3rem;
+    font-size: .8rem;
     color: white;
 }
 footer p i{
@@ -468,7 +468,9 @@ align-items: center;
 
 }
 
-
+footer p {
+    font-size: 1.1rem;
+}
 
 }
 
