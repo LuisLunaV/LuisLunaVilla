@@ -198,12 +198,15 @@ padding: 5px;
   background: linear-gradient(62deg,#2D4262  0%, #363237 100%);
   padding-top: 100px;
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
  text-align: center;
 }
 
+#carouselExampleControls{
+    margin-top: 100px;
+}
 .img-proyects{
     /* align-self: center; */
     width: 100%;
