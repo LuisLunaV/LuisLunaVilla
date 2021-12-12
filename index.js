@@ -21,12 +21,12 @@ const crearHtml =()=>{
         </a>
         </div>
     
-        <div class="project project-tile">
-                <a href="https://luislunav.github.io/Lista-de-tareas/" target="_blank">
-                <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1639290770/lji86y7t45v6fekr2p08.jpg" alt="img-pagina-80's">
-                <p><span class="code">&lt;</span>Lista de tareas<span class="code">&#47;&gt;</span></p>
-            </a>
-            </div>
+        <div class="project project-tile carousel-item">
+        <a href="https://luislunav.github.io/Lista-de-tareas/" class="d-block w-100" target="_blank">
+        <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1639290770/lji86y7t45v6fekr2p08.jpg" alt="img-pagina-lista">
+        <p><span class="code">&lt;</span>Lista de tareas<span class="code">&#47;&gt;</span></p>
+    </a>
+    </div>
     
         <div class="project project-tile carousel-item">
           <a href="https://luislunav.github.io/Juego-piedra-papel/" class="d-block w-100" target="_blank">
