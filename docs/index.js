@@ -50,11 +50,11 @@ const crearHtml =()=>{
     seccciones.innerHTML = html;
     };
     
-    if(screen.width <= 530){
+    if(screen.width <= 530){   
         do{
             seccciones.removeChild(seccciones.firstElementChild);
             }while(seccciones.firstElementChild)
-        
+            
             (seccciones.firstElementChild === true)?
             ''
             :
