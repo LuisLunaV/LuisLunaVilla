@@ -34,6 +34,20 @@ const crearHtml =()=>{
           <p><span class="code">&lt;</span>Piedra-Papel-Tijera<span class="code">&#47;&gt;</span></p>
       </a>
       </div>
+
+      <div class="project project-tile carousel-item">
+            <a href="https://luislunav.github.io/Formulario-CRUD/" class="d-block w-100 target="_blank">
+            <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1641193232/f0brdcjkq00bw58zm8th.jpg" class="d-block w-100" alt="img-sistema-crud">
+            <p><span class="code">&lt;</span>Demo-CRUD<span class="code">&#47;&gt;</span></p>
+        </a>
+        </div>
+
+        <div class="project project-tile carousel-item">
+          <a href="https://luislunav.github.io/RickApi/" class="d-block w-100 target="_blank">
+          <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1641193255/q8g8sr2kufaz7pmymewa.jpg" class="d-block w-100" alt="img-rick-morty">
+          <p><span class="code">&lt;</span>Pagination Rick and morty<span class="code">&#47;&gt;</span></p>
+      </a>
+      </div>
     
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
