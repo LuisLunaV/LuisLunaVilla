@@ -1,4 +1,6 @@
-const seccciones = document.querySelector('#projects');
+const seccciones = document.querySelector('#projects'),
+      navMenu    = document.querySelector('nav');
+
 
 const crearHtml =()=>{
     const html = ` <h2 class="display-4">Estos son algunos proyectos realizados</h2>
@@ -63,15 +65,36 @@ const crearHtml =()=>{
     
     seccciones.innerHTML = html;
     };
+
+    const crearBurgerHtml =()=>{
+      const menuHtml = `
+      <div class="btn-group dropend">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="#welcome-section"><i class="fas fa-home"></i> Inicio</a></li>
+          <li><a class="dropdown-item" href="#sobre-mi"><i class="fas fa-address-card"></i> Sobre mi</a></li>
+          <li><a class="dropdown-item" href="#tecnologias"> <i class="fas fa-tools"></i> Tecnologias</a></li>
+          <li><a class="dropdown-item" href="#projects"><i class="fas fa-list"></i> Proyectos</a></li>
+          <li><a class="dropdown-item" href="#contact"><i class="fas fa-mail-bulk"></i> Contacto</a></li>
+        </ul>
+      </div> `;
+
+      navMenu.innerHTML = menuHtml;
+
+    };
     
     if(screen.width <= 530){
         do{
             seccciones.removeChild(seccciones.firstElementChild);
             }while(seccciones.firstElementChild)
-        
-            (seccciones.firstElementChild === true)?
-            ''
-            :
-            crearHtml()
+      
+            navMenu.removeAttribute('id')
+            navMenu.removeChild(navMenu.firstElementChild);
+
+            (seccciones.firstElementChild === true)? '' : crearHtml();
+            navMenu.classList.add('navbar','navbar-expand-sm','navbar-dark','bg-dark','burger');
+            (navMenu.firstElementChild === true)? '' : crearBurgerHtml();
             
     }

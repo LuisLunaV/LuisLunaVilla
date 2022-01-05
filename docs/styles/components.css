@@ -1,0 +1,9 @@
+.burger{
+    background: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%);
+    padding: 3px !important;
+    position: fixed;z-index: 3;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    }
