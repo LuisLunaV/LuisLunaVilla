@@ -5,5 +5,11 @@
     left: 0;
     right: 0;
     top: 0;
+    }
 
+   .burger .btn{
+    border: none;
+    background: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%) !important;
+    height: 56px;
+    width: 71px;
     }

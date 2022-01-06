@@ -70,7 +70,7 @@ const crearHtml =()=>{
       const menuHtml = `
       <div class="btn-group dropend">
         <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars fa-lg"></i>
         </button>
         <ul class="dropdown-menu dropdown-menu-dark">
           <li><a class="dropdown-item" href="#welcome-section"><i class="fas fa-home"></i> Inicio</a></li>
