@@ -10,10 +10,10 @@ const crearHtml =()=>{
     <div class="img-proyects carousel-inner">
     
         <div class="project project-tile carousel-item active">
-          <a href="https://luislunav.github.io/Cafe-Mexico/" class="d-block w-100" target="_blank">  
-              <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1635323383/zjosgnro0uxolbybt0g0.jpg" class="d-block w-100" alt="img-cafe-mexico">
-              <p><span class="code">&lt;</span>Café México<span class="code">&#47;&gt;</span></p>
-            </a>
+        <a href="https://luislunav.github.io/PokedexApi/" class="d-block w-100" target="_blank">  
+        <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1642312329/vepl9br2hn1leeqi7enx.jpg" class="d-block w-100" alt="img-Pokedex">
+        <p><span class="code">&lt;</span>Pokedex<span class="code">&#47;&gt;</span></p>
+      </a>
         </div>
     
         <div class="project project-tile carousel-item">
@@ -46,8 +46,8 @@ const crearHtml =()=>{
 
         <div class="project project-tile carousel-item">
           <a href="https://luislunav.github.io/RickApi/" class="d-block w-100 target="_blank">
-          <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1641193255/q8g8sr2kufaz7pmymewa.jpg" class="d-block w-100" alt="img-rick-morty">
-          <p><span class="code">&lt;</span>Pagination Rick and morty<span class="code">&#47;&gt;</span></p>
+          <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1642309746/gjbjio4ye93fi8ifjub6.jpg" class="d-block w-100" alt="img-rick-morty">
+          <p><span class="code">&lt;</span>Rick and morty<span class="code">&#47;&gt;</span></p>
       </a>
       </div>
     

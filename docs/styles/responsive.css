@@ -1,0 +1,560 @@
+/************* Media query 530 **************/
+@media screen and (min-width:560px){
+    
+    #navbar ul{
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    #navbar ul li{
+        padding: 0 10px 0 10px;
+        font-size: 1.1rem;
+      
+    }
+
+    .welcome-section{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /* *****************Sobre mi***************************/
+
+
+      #sobre-mi{
+       overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        max-height: auto;
+        font-size: 1.2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre-mi #box-sobre-mi{
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    #sobre-mi h2{
+        
+margin-top: 60px;
+        
+    }
+
+    lottie-player{
+        background:none;
+        box-shadow: none;
+        width: 100%;
+        max-width: auto ;
+        height: 60%;
+        max-width: 240px;
+
+    }
+   
+    #sobre-mi p{
+        text-align: center;
+        font-size: 1.2rem;
+       padding: 20px;
+        width: 90%;
+        height: 80%;
+        
+    }
+
+/* ********************************************* */
+/* *****************Tecnologias***************************/
+#tecnologias{
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 50px;
+}
+#cont-tec{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.box-cont{
+    height: 130px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1rem; 
+}
+
+.box-cont:hover > .info p{
+    font-size: 9.5px;
+}
+/* ********************************************/
+
+
+/* ********************************************* */
+/* *****************Proyectos***************************/
+
+
+    .projects-sections{
+
+        padding-top: 100px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       text-align: center;
+      }
+      
+      .img-proyects{
+          margin: auto;
+          width: 90%;
+          height: 100%;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+      .img-proyects .project-tile{  
+          border-radius: 15px;
+          width: 210px;
+          max-height: 400px;
+          height: auto;
+      }
+      
+      
+      .img-proyects .project-tile a p{
+          font-size: .9rem;
+      }
+      
+      .img-proyects .project-tile img{
+          max-width: 370px;
+          max-height: 380px;
+          width: 100%;
+          height: 340px;
+      }
+
+       /* *****************contacts***************************/
+
+.perfil-contacto .contact-links{
+    width: 82%;
+    height: 100px;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.perfil-contacto .contact-links a{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+}
+
+/* ***********************************************/
+
+/************* Media query 820 **************/
+
+@media screen and (min-width:820px){
+  
+    #navbar ul{
+        justify-content: flex-end;
+        align-items: center;
+    }
+    #navbar ul li{
+        padding: 0 20px 0 20px;
+        overflow: hidden;
+        font-size: 1.6rem;      
+    }
+
+    .welcome-section{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /* *****************Sobre mi***************************/
+
+
+      #sobre-mi{
+
+        width: 100%;
+        height: 100vh;
+        padding-top: 90px;
+        text-align: justify;
+        font-size: 1.5rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sobre-mi #box-sobre-mi{
+        padding-top: 10px;
+flex-direction: row;
+justify-content: space-evenly;
+
+    }
+    #sobre-mi h2{
+        width: 50%;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        align-self: flex-end;
+text-align: center;
+      
+        }
+
+    lottie-player{
+        width: 100%;
+        height: 90%;
+        max-width: 400px;
+
+    }
+   
+    #sobre-mi p{
+       padding: 10px;
+        width: 50%;
+        height: auto;
+        font-size: 1.8rem;
+        text-align: justify;
+        background: none;
+        border-radius: none;
+        box-shadow: none;
+    }
+/* *******************************************************/
+
+/* *****************Tecnologias***************************/
+#tecnologias{
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.box-cont{
+    height: 150px;
+    width: auto;
+    padding: 10px;
+    margin: 25px 20px 25px 20px;
+
+}
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1rem; 
+}
+
+.box-cont:hover > .info p{
+    font-size: .7rem;
+}
+/* ********************************************/
+
+
+
+
+      /* *****************projects***************************/
+.projects-sections{
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+  }
+  
+  .img-proyects{
+      width: 90%;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+  }
+  .img-proyects .project-tile{  
+      border-radius: 15px;
+      width: 230px;
+      max-height: 400px;
+      height: auto;
+
+  }
+  
+  
+  .img-proyects .project-tile a p{
+      font-size: 1.1rem;
+  }
+  
+.img-proyects .project-tile img{
+    max-width: 370px;
+    max-height: 380px;
+width: 100%;
+height: 340px;
+      
+  }
+
+  /* *****************contacts***************************/
+.perfil-contacto{
+ 
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.perfil-contacto p{
+    text-align: center;
+}
+.perfil-contacto .contact-links{
+    width: 70%;
+    height: 100px;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.perfil-contacto .contact-links a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+
+}
+
+
+footer{
+
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-size: 1.3rem;
+}
+        
+}
+/* ********************************************/
+
+/* *****************Tecnologias***************************/
+@media screen and (min-width:1000px){
+    #sobre-mi h2{
+
+        margin-right: 50px;
+      
+        }
+
+        .projects-sections{
+        justify-content: center;
+        padding-top: 100px;
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+      }
+      
+      .img-proyects{
+          width: 78%;
+          height: 100%;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+      .img-proyects .project-tile{  
+          border-radius: 15px;
+          width: 240px;
+      max-height: 410px;
+      height: auto;
+    
+      }
+      
+      
+      .img-proyects .project-tile a p{
+          font-size: 1.3rem;
+      }
+      
+    .img-proyects .project-tile img{
+        max-width: 370px;
+        max-height: 380px;
+    width: 100%;
+    height: 340px;
+          
+      }
+    
+
+}
+/* ********************************************/
+
+/* *****************Tecnologias***************************/
+@media screen and (min-width:1258px){
+#tecnologias{
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tecnologias #titulo{
+    margin-top: 75px;
+}
+#cont-tec{
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    }
+.box-cont{
+    height: 180px;
+    width: auto;
+    margin: 25px 20px 25px 20px; 
+}
+
+#sobre-mi h2{
+ 
+    margin-right: 120px;
+  
+  
+    }
+/* -----------------Efecto hover a la imagen y opasidad--------------- */
+
+.box-cont .info{
+    font-size: 0.9rem;
+} 
+
+.box-cont .info h2{
+    font-size: 1.1rem;
+
+
+}
+.box-cont:hover > .info h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.box-cont:hover > .info p{
+    font-size: .9rem;
+}
+
+/* *****************Tecnologias***************************/
+
+.projects-sections{
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+  }
+  
+  .img-proyects{
+      width: 100%;
+      height: 100%;
+      flex-direction: row;
+      justify-content: space-evenly;
+  }
+  .img-proyects .project-tile{  
+      border-radius: 15px;
+      width: 250px;
+      height: auto;
+
+  }
+  
+  
+  .img-proyects .project-tile a p{
+      font-size: 1.1rem;
+  }
+  
+.img-proyects .project-tile img{
+    max-width: 390px;
+    max-height: 400px;
+width: 100%;
+height: 390px;
+      
+  }
+    
+}
+/* ***********************************************/
+
+/* *****************Proyectos***************************/
+@media screen and (min-width:1130px){
+
+    #sobre-mi h2{
+ 
+        margin-right: 100px;
+      
+        }
+
+    .projects-sections{
+        justify-content: center;
+        padding-top: 100px;
+        width: 100%;
+        height: 160vh;
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+      }
+      
+      .img-proyects{
+          width: 66%;
+          height: auto;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+      .img-proyects .project-tile{  
+          border-radius: 15px;
+          width: 230px;
+          height: 362px;
+    
+      }
+      
+      
+      .img-proyects .project-tile a p{
+          font-size: 1.4rem;
+      }
+      
+      .img-proyects .project-tile img{
+          max-width: 300px;
+          max-height: 500px;
+          height: 325px;
+      }
+    
+}
