@@ -11,7 +11,7 @@ const crearHtml =()=>{
     
         <div class="project project-tile carousel-item active">
         <a href="https://luislunav.github.io/PokedexApi/" class="d-block w-100" target="_blank">  
-        <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1642312329/vepl9br2hn1leeqi7enx.jpg" class="d-block w-100" alt="img-Pokedex">
+        <img src="https://res.cloudinary.com/luisluna1991/image/upload/v1642313432/m6w7kqyjeykgnace1rok.jpg" class="d-block w-100" alt="img-Pokedex">
         <p><span class="code">&lt;</span>Pokedex<span class="code">&#47;&gt;</span></p>
       </a>
         </div>
