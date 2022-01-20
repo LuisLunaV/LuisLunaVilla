@@ -1,560 +1,521 @@
 /************* Media query 530 **************/
-@media screen and (min-width:560px){
-    
-    #navbar ul{
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    #navbar ul li{
-        padding: 0 10px 0 10px;
-        font-size: 1.1rem;
-      
-    }
+@media screen and (min-width: 560px) {
+  #navbar ul {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #navbar ul li {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px 0 10px;
+    font-size: 1.1rem;
+  }
 
-    .welcome-section{
-        width: 100%;
-        height: 100vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      /* *****************Sobre mi***************************/
+  #navbar ul li a {
+    font-size: 0.8rem;
+  }
 
+  .welcome-section {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* *****************Sobre mi***************************/
 
-      #sobre-mi{
-       overflow: hidden;
-        width: 100%;
-        height: 100vh;
-        max-height: auto;
-        font-size: 1.2rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  #sobre-mi {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    max-height: auto;
+    font-size: 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    #sobre-mi #box-sobre-mi{
+  #sobre-mi #box-sobre-mi {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #sobre-mi h2 {
+    margin-top: 60px;
+  }
 
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+  lottie-player {
+    background: none;
+    box-shadow: none;
+    width: 100%;
+    max-width: auto;
+    height: 60%;
+    max-width: 240px;
+  }
 
-    }
-    #sobre-mi h2{
-        
-margin-top: 60px;
-        
-    }
+  #sobre-mi p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px;
+    width: 90%;
+    height: 80%;
+  }
 
-    lottie-player{
-        background:none;
-        box-shadow: none;
-        width: 100%;
-        max-width: auto ;
-        height: 60%;
-        max-width: 240px;
-
-    }
-   
-    #sobre-mi p{
-        text-align: center;
-        font-size: 1.2rem;
-       padding: 20px;
-        width: 90%;
-        height: 80%;
-        
-    }
-
-/* ********************************************* */
-/* *****************Tecnologias***************************/
-#tecnologias{
+  /* ********************************************* */
+  /* *****************Tecnologias***************************/
+  #tecnologias {
     width: 100%;
     height: 100vh;
     max-height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#tecnologias #titulo{
+  }
+  #tecnologias #titulo {
     margin-top: 50px;
-}
-#cont-tec{
+  }
+  #cont-tec {
     width: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    }
-.box-cont{
+  }
+  .box-cont {
     height: 130px;
     width: auto;
     padding: 10px;
     margin: 10px;
+  }
+  /* -----------------Efecto hover a la imagen y opasidad--------------- */
 
-}
-/* -----------------Efecto hover a la imagen y opasidad--------------- */
-
-.box-cont .info{
+  .box-cont .info {
     font-size: 0.9rem;
-} 
+  }
 
-.box-cont .info h2{
-    font-size: 1rem; 
-}
+  .box-cont .info h2 {
+    font-size: 1rem;
+  }
 
-.box-cont:hover > .info p{
+  .box-cont:hover > .info p {
     font-size: 9.5px;
-}
-/* ********************************************/
+  }
+  /* ********************************************/
 
+  /* ********************************************* */
+  /* *****************Proyectos***************************/
 
-/* ********************************************* */
-/* *****************Proyectos***************************/
+  .projects-sections {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
+  .img-proyects {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .img-proyects .project-tile {
+    border-radius: 15px;
+    width: 210px;
+    max-height: 400px;
+    height: auto;
+  }
 
-    .projects-sections{
+  .img-proyects .project-tile a p {
+    font-size: 0.9rem;
+  }
 
-        padding-top: 100px;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-       text-align: center;
-      }
-      
-      .img-proyects{
-          margin: auto;
-          width: 90%;
-          height: 100%;
-          flex-direction: row;
-          justify-content: space-evenly;
-          flex-wrap: wrap;
-      }
-      .img-proyects .project-tile{  
-          border-radius: 15px;
-          width: 210px;
-          max-height: 400px;
-          height: auto;
-      }
-      
-      
-      .img-proyects .project-tile a p{
-          font-size: .9rem;
-      }
-      
-      .img-proyects .project-tile img{
-          max-width: 370px;
-          max-height: 380px;
-          width: 100%;
-          height: 340px;
-      }
+  .img-proyects .project-tile img {
+    max-width: 370px;
+    max-height: 380px;
+    width: 100%;
+    height: 340px;
+  }
 
-       /* *****************contacts***************************/
+  /* *****************contacts***************************/
 
-.perfil-contacto .contact-links{
+  .perfil-contacto .contact-links {
     width: 82%;
     height: 100px;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-}
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-.perfil-contacto .contact-links a{
+  .perfil-contacto .contact-links a {
     text-align: center;
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
+  }
 
-}
-
-footer p {
+  footer p {
     font-size: 1.1rem;
-}
-
+  }
 }
 
 /* ***********************************************/
 
 /************* Media query 820 **************/
 
-@media screen and (min-width:820px){
-  
-    #navbar ul{
-        justify-content: flex-end;
-        align-items: center;
-    }
-    #navbar ul li{
-        padding: 0 20px 0 20px;
-        overflow: hidden;
-        font-size: 1.6rem;      
-    }
+@media screen and (min-width: 820px) {
+  #navbar ul {
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #navbar ul li {
+    width: 12%;
+    height: 100%;
+    padding: 0px;
+    overflow: hidden;
+    font-size: 1.6rem;
+  }
+  #navbar ul li a {
+    font-size: 1rem;
+  }
+  .welcome-section {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* *****************Sobre mi***************************/
 
-    .welcome-section{
-        width: 100%;
-        height: 100vh;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      /* *****************Sobre mi***************************/
+  #sobre-mi {
+    width: 100%;
+    height: 100vh;
+    padding-top: 90px;
+    text-align: justify;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  #sobre-mi #box-sobre-mi {
+    padding-top: 10px;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #sobre-mi h2 {
+    width: 50%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    align-self: flex-end;
+    text-align: center;
+  }
 
-      #sobre-mi{
+  lottie-player {
+    width: 100%;
+    height: 90%;
+    max-width: 400px;
+  }
 
-        width: 100%;
-        height: 100vh;
-        padding-top: 90px;
-        text-align: justify;
-        font-size: 1.5rem;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+  #sobre-mi p {
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    font-size: 1.7rem;
+    text-align: justify;
+    background: none;
+    border-radius: none;
+    box-shadow: none;
+  }
+  /* *******************************************************/
 
-    #sobre-mi #box-sobre-mi{
-        padding-top: 10px;
-flex-direction: row;
-justify-content: space-evenly;
-
-    }
-    #sobre-mi h2{
-        width: 50%;
-        margin-bottom: 10px;
-        margin-right: 20px;
-        align-self: flex-end;
-text-align: center;
-      
-        }
-
-    lottie-player{
-        width: 100%;
-        height: 90%;
-        max-width: 400px;
-
-    }
-   
-    #sobre-mi p{
-       padding: 10px;
-        width: 50%;
-        height: auto;
-        font-size: 1.8rem;
-        text-align: justify;
-        background: none;
-        border-radius: none;
-        box-shadow: none;
-    }
-/* *******************************************************/
-
-/* *****************Tecnologias***************************/
-#tecnologias{
+  /* *****************Tecnologias***************************/
+  #tecnologias {
     width: 100%;
     height: auto;
     max-height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#tecnologias #titulo{
+  }
+  #tecnologias #titulo {
     margin-top: 75px;
-}
-#cont-tec{
+  }
+  #cont-tec {
     width: 80%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    }
-.box-cont{
+  }
+  .box-cont {
     height: 150px;
     width: auto;
     padding: 10px;
     margin: 25px 20px 25px 20px;
+  }
+  /* -----------------Efecto hover a la imagen y opasidad--------------- */
 
-}
-/* -----------------Efecto hover a la imagen y opasidad--------------- */
-
-.box-cont .info{
+  .box-cont .info {
     font-size: 0.9rem;
-} 
+  }
 
-.box-cont .info h2{
-    font-size: 1rem; 
-}
+  .box-cont .info h2 {
+    font-size: 1rem;
+  }
 
-.box-cont:hover > .info p{
-    font-size: .7rem;
-}
-/* ********************************************/
+  .box-cont:hover > .info p {
+    font-size: 0.7rem;
+  }
+  /* ********************************************/
 
-
-
-
-      /* *****************projects***************************/
-.projects-sections{
+  /* *****************projects***************************/
+  .projects-sections {
     justify-content: center;
     padding-top: 100px;
     width: 100%;
     height: 150vh;
     display: flex;
     flex-direction: column;
-   text-align: center;
+    text-align: center;
   }
-  
-  .img-proyects{
-      width: 90%;
-      height: 100%;
-      flex-direction: row;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-  }
-  .img-proyects .project-tile{  
-      border-radius: 15px;
-      width: 230px;
-      max-height: 400px;
-      height: auto;
 
+  .img-proyects {
+    width: 90%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
-  
-  
-  .img-proyects .project-tile a p{
-      font-size: 1.1rem;
+  .img-proyects .project-tile {
+    border-radius: 15px;
+    width: 230px;
+    max-height: 400px;
+    height: auto;
   }
-  
-.img-proyects .project-tile img{
+
+  .img-proyects .project-tile a p {
+    font-size: 1.1rem;
+  }
+
+  .img-proyects .project-tile img {
     max-width: 370px;
     max-height: 380px;
-width: 100%;
-height: 340px;
-      
+    width: 100%;
+    height: 340px;
   }
 
   /* *****************contacts***************************/
-.perfil-contacto{
- 
+  .perfil-contacto {
     width: 100%;
     height: 80vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.perfil-contacto p{
+  }
+  .perfil-contacto p {
     text-align: center;
-}
-.perfil-contacto .contact-links{
+  }
+  .perfil-contacto .contact-links {
     width: 70%;
     height: 100px;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-}
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
 
-.perfil-contacto .contact-links a{
+  .perfil-contacto .contact-links a {
     font-size: 1.5rem;
     color: white;
     text-decoration: none;
+  }
 
-}
-
-
-footer{
-
+  footer {
     height: 20vh;
     justify-content: center;
     align-items: center;
-}
-footer p {
+  }
+  footer p {
     font-size: 1.3rem;
-}
-        
+  }
 }
 /* ********************************************/
 
 /* *****************Tecnologias***************************/
-@media screen and (min-width:1000px){
-    #sobre-mi h2{
+@media screen and (min-width: 1000px) {
+  #navbar ul li a {
+    font-size: 1.3rem;
+  }
+  #sobre-mi h2 {
+    margin-right: 50px;
+  }
 
-        margin-right: 50px;
-      
-        }
+  .projects-sections {
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 
-        .projects-sections{
-        justify-content: center;
-        padding-top: 100px;
-        width: 100%;
-        height: 150vh;
-        display: flex;
-        flex-direction: column;
-       text-align: center;
-      }
-      
-      .img-proyects{
-          width: 78%;
-          height: 100%;
-          flex-direction: row;
-          justify-content: space-evenly;
-          flex-wrap: wrap;
-      }
-      .img-proyects .project-tile{  
-          border-radius: 15px;
-          width: 240px;
-      max-height: 410px;
-      height: auto;
-    
-      }
-      
-      
-      .img-proyects .project-tile a p{
-          font-size: 1.3rem;
-      }
-      
-    .img-proyects .project-tile img{
-        max-width: 370px;
-        max-height: 380px;
+  .img-proyects {
+    width: 78%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .img-proyects .project-tile {
+    border-radius: 15px;
+    width: 240px;
+    max-height: 410px;
+    height: auto;
+  }
+
+  .img-proyects .project-tile a p {
+    font-size: 1.3rem;
+  }
+
+  .img-proyects .project-tile img {
+    max-width: 370px;
+    max-height: 380px;
     width: 100%;
     height: 340px;
-          
-      }
-    
-
+  }
 }
 /* ********************************************/
 
 /* *****************Tecnologias***************************/
-@media screen and (min-width:1258px){
-#tecnologias{
+@media screen and (min-width: 1258px) {
+  #tecnologias {
     width: 100%;
     height: 100vh;
     max-height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-#tecnologias #titulo{
+  }
+  #tecnologias #titulo {
     margin-top: 75px;
-}
-#cont-tec{
+  }
+  #cont-tec {
     width: 70%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-
-    }
-.box-cont{
+  }
+  .box-cont {
     height: 180px;
     width: auto;
-    margin: 25px 20px 25px 20px; 
-}
+    margin: 25px 20px 25px 20px;
+  }
 
-#sobre-mi h2{
- 
+  #sobre-mi h2 {
     margin-right: 120px;
-  
-  
-    }
-/* -----------------Efecto hover a la imagen y opasidad--------------- */
+  }
+  /* -----------------Efecto hover a la imagen y opasidad--------------- */
 
-.box-cont .info{
+  .box-cont .info {
     font-size: 0.9rem;
-} 
+  }
 
-.box-cont .info h2{
+  .box-cont .info h2 {
     font-size: 1.1rem;
-
-
-}
-.box-cont:hover > .info h2{
+  }
+  .box-cont:hover > .info h2 {
     margin-top: 20px;
     margin-bottom: 5px;
-}
+  }
 
-.box-cont:hover > .info p{
-    font-size: .9rem;
-}
+  .box-cont:hover > .info p {
+    font-size: 0.9rem;
+  }
 
-/* *****************Tecnologias***************************/
+  /* *****************Tecnologias***************************/
 
-.projects-sections{
+  .projects-sections {
     justify-content: center;
     padding-top: 100px;
     width: 100%;
     height: 150vh;
     display: flex;
     flex-direction: column;
-   text-align: center;
+    text-align: center;
   }
-  
-  .img-proyects{
-      width: 100%;
-      height: 100%;
-      flex-direction: row;
-      justify-content: space-evenly;
-  }
-  .img-proyects .project-tile{  
-      border-radius: 15px;
-      width: 250px;
-      height: auto;
 
+  .img-proyects {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
-  
-  
-  .img-proyects .project-tile a p{
-      font-size: 1.1rem;
+  .img-proyects .project-tile {
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
   }
-  
-.img-proyects .project-tile img{
+
+  .img-proyects .project-tile a p {
+    font-size: 1.1rem;
+  }
+
+  .img-proyects .project-tile img {
     max-width: 390px;
     max-height: 400px;
-width: 100%;
-height: 390px;
-      
+    width: 100%;
+    height: 390px;
   }
-    
 }
 /* ***********************************************/
 
 /* *****************Proyectos***************************/
-@media screen and (min-width:1130px){
+@media screen and (min-width: 1130px) {
+  #navbar ul li a {
+    font-size: 1.4rem;
+  }
 
-    #sobre-mi h2{
- 
-        margin-right: 100px;
-      
-        }
+  #sobre-mi h2 {
+    margin-right: 100px;
+  }
 
-    .projects-sections{
-        justify-content: center;
-        padding-top: 100px;
-        width: 100%;
-        height: 160vh;
-        display: flex;
-        flex-direction: column;
-       text-align: center;
-      }
-      
-      .img-proyects{
-          width: 66%;
-          height: auto;
-          flex-direction: row;
-          justify-content: space-evenly;
-          flex-wrap: wrap;
-      }
-      .img-proyects .project-tile{  
-          border-radius: 15px;
-          width: 230px;
-          height: 362px;
-    
-      }
-      
-      
-      .img-proyects .project-tile a p{
-          font-size: 1.4rem;
-      }
-      
-      .img-proyects .project-tile img{
-          max-width: 300px;
-          max-height: 500px;
-          height: 325px;
-      }
-    
+  .projects-sections {
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img-proyects {
+    width: 66%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .img-proyects .project-tile {
+    border-radius: 15px;
+    width: 230px;
+    height: 362px;
+  }
+
+  .img-proyects .project-tile a p {
+    font-size: 1.4rem;
+  }
+
+  .img-proyects .project-tile img {
+    max-width: 300px;
+    max-height: 500px;
+    height: 325px;
+  }
 }

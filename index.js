@@ -85,7 +85,7 @@ const crearHtml =()=>{
 
     };
     
-    if(screen.width <= 530){
+    if(screen.width <= 559){
         do{
             seccciones.removeChild(seccciones.firstElementChild);
             }while(seccciones.firstElementChild)
