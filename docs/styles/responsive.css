@@ -41,9 +41,10 @@
     align-items: center;
   }
   #sobre-mi h2 {
-    margin-top: 60px;
+    margin-top: 10px;
   }
 
+  
   lottie-player {
     background: none;
     box-shadow: none;
@@ -59,6 +60,9 @@
     padding: 20px;
     width: 90%;
     height: 80%;
+  }
+  #btn-cv{
+    margin: 0px;
   }
 
   /* ********************************************* */
@@ -195,7 +199,7 @@
   #sobre-mi {
     width: 100%;
     height: 100vh;
-    padding-top: 90px;
+    padding-top: 50px;
     text-align: justify;
     font-size: 1.5rem;
     flex-direction: column;
@@ -208,7 +212,7 @@
     flex-direction: row;
     justify-content: space-evenly;
   }
-  #sobre-mi h2 {
+  #sobre-mi h2{
     width: 50%;
     margin-bottom: 10px;
     margin-right: 20px;
@@ -218,7 +222,7 @@
 
   lottie-player {
     width: 100%;
-    height: 90%;
+    height: 100%;
     max-width: 400px;
   }
 
@@ -226,11 +230,19 @@
     padding: 10px;
     width: 50%;
     height: auto;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-align: justify;
     background: none;
     border-radius: none;
     box-shadow: none;
+  }
+
+  #btn-cv {
+    margin-left: 460px;
+  }
+
+  #sobre-mi #box-sobre-mi {
+    height: 350px;
   }
   /* *******************************************************/
 
@@ -351,8 +363,15 @@
   #navbar ul li a {
     font-size: 1.3rem;
   }
-  #sobre-mi h2 {
+  #sobre-mi h2{
     margin-right: 50px;
+  }
+  #sobre-mi p {
+    font-size: 1.5rem;
+  }
+
+  #btn-cv {
+    margin-left: 460px;
   }
 
   .projects-sections {
@@ -391,7 +410,6 @@
   }
 }
 /* ********************************************/
-
 /* *****************Tecnologias***************************/
 @media screen and (min-width: 1258px) {
   #tecnologias {
@@ -418,9 +436,11 @@
     margin: 25px 20px 25px 20px;
   }
 
-  #sobre-mi h2 {
+  #sobre-mi h2{
     margin-right: 120px;
   }
+
+
   /* -----------------Efecto hover a la imagen y opasidad--------------- */
 
   .box-cont .info {
@@ -486,6 +506,10 @@
     margin-right: 100px;
   }
 
+  #btn-cv {
+    margin-left: 535px;
+  }
+
   .projects-sections {
     justify-content: center;
     padding-top: 100px;
@@ -519,3 +543,6 @@
     height: 325px;
   }
 }
+
+
+
