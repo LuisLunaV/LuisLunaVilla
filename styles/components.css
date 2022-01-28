@@ -1,4 +1,7 @@
 .burger{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
     background: linear-gradient(62deg, #3a3d40 0%, #3a3d40 100%);
     padding: 3px !important;
     position: fixed;z-index: 3;

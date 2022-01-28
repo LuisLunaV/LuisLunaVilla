@@ -79,7 +79,11 @@ const crearHtml =()=>{
           <li><a class="dropdown-item" href="#projects"><i class="fas fa-list"></i> Proyectos</a></li>
           <li><a class="dropdown-item" href="#contact"><i class="fas fa-mail-bulk"></i> Contacto</a></li>
         </ul>
-      </div> `;
+      </div> 
+      <div class="titulo">
+      <label>{ LuisLV }</label>
+    </div>
+      `;
 
       navMenu.innerHTML = menuHtml;
 

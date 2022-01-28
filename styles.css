@@ -2,8 +2,23 @@
   margin: 0px;
   padding: 0px;
 }
-
+.titulo {
+  text-align: center;
+  display: flex;
+  align-self: center;
+  font-size: 7mm;
+  text-align: center;
+}
+.titulo label {
+  color: red;
+  font-family: "Lobster", cursive;
+  font-size: 1.3rem;
+  text-shadow: -3px 2px 0 white, -14px 7px 0 rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
 #navbar {
+  display:flex;
+  flex-direction: row;
   background: linear-gradient(to top left, #25bcff, #1781e8);
   height: 80px;
   position: fixed;
@@ -17,6 +32,7 @@
   padding: 0px;
   margin: 0px;
   height: 100%;
+  width: 100%;
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -24,7 +40,6 @@
 }
 
 #navbar ul li {
-  padding: 0 5px 0 5px;
   transition: 0.5s;
 }
 
@@ -323,7 +338,7 @@ img {
 
 .perfil-contacto .contact-links a:hover {
   /* transform: scale(1.2); */
-  margin-top: 15px;
+  margin-bottom:15px;
 }
 
 footer {
