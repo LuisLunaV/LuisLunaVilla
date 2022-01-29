@@ -4,7 +4,7 @@
     }
     
     .titulo label{
-      margin-right: 70px;
+      margin-right: 95px;
       font-size: 1.5rem;
     }
 }
@@ -21,6 +21,9 @@ width:80%;
 }
 /************* Media query 530 **************/
 @media screen and (min-width: 560px) {
+  #navbar {
+  background: linear-gradient(to top left, #25bcff, #1781e8);
+  }
   .titulo{
     width: 20%;
     }
