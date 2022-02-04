@@ -7,6 +7,9 @@
       margin-right: 95px;
       font-size: 1.5rem;
     }
+    #navbar ul li a{
+      font-size: 0px;
+      }
 }
 @media screen and (min-width: 361px){
 .titulo{
